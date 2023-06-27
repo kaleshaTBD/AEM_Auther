@@ -1,0 +1,13 @@
+<h2><strong>Contries List: </strong></h2>
+<div data-sly-use.model="com.adobe.aem.guides.wknd.core.models.NestedMultifieldOfContryWithStates">
+
+
+           <ul data-sly-list.country="${model.contries}">
+                <li>Name: ${country.name}</li>
+                <li>Code: ${country.code}</li>
+                <div> <img src="${country.pathImage}" alt="User-Profile-Image" width="150px" height="100px"> </div>
+                
+                <p>-------------------------------------</p>
+            </ul>
+
+</div>

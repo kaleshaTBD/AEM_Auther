@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-22T11:09:59.771+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Taj Hotels Headers"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <tajheadernavigation
+                jcr:created="{Date}2023-06-21T21:36:23.720+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-21T21:36:23.720+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/tajHeaderNavigation"/>
+            <carousel
+                jcr:created="{Date}2023-06-20T22:04:02.879+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-20T22:37:15.292+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/carousel"
+                accessibilityAutoItemTitles="false"
+                autopauseDisabled="false"
+                autoplay="true"
+                delay="1500">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="newline"/>
+                </cq:responsive>
+                <image
+                    cq:panelTitle="carousel1"
+                    jcr:created="{Date}2023-06-20T22:04:27.752+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-06-20T22:12:46.225+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    alt="kalesha text1"
+                    altValueFromDAM="false"
+                    disableLazyLoading="false"
+                    displayPopupTitle="true"
+                    fileName="cq5dam.web.1280.1280.jpeg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self">
+                    <file/>
+                </image>
+                <item_1687279119015
+                    cq:panelTitle="carousel2"
+                    jcr:lastModified="{Date}2023-06-20T22:29:00.340+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    alt="kalesha text1"
+                    displayPopupTitle="false"
+                    fileName="cq5dam.web.1280.1280.png"
+                    isDecorative="false">
+                    <file/>
+                </item_1687279119015>
+                <item_1687279169576
+                    cq:panelTitle="carousel3"
+                    jcr:lastModified="{Date}2023-06-20T22:31:02.522+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    displayPopupTitle="false"
+                    fileName="cq5dam.web.1280.1280 (3).jpeg"
+                    isDecorative="true">
+                    <file/>
+                </item_1687279169576>
+                <item_1687279186719
+                    cq:panelTitle="carousel4"
+                    jcr:lastModified="{Date}2023-06-20T22:31:34.368+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    alt="kalesha text123"
+                    displayPopupTitle="false"
+                    fileName="cq5dam.web.1280.1280 (4).jpeg"
+                    isDecorative="false">
+                    <file/>
+                </item_1687279186719>
+                <item_1687279194724
+                    cq:panelTitle="carousel5"
+                    jcr:lastModified="{Date}2023-06-20T22:32:08.851+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    alt="image text"
+                    displayPopupTitle="false"
+                    fileName="cq5dam.web.1280.1280 (1).jpeg"
+                    isDecorative="false">
+                    <file/>
+                </item_1687279194724>
+                <item_1687279200275
+                    cq:panelTitle="carousel6"
+                    jcr:lastModified="{Date}2023-06-20T22:32:27.491+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/image"
+                    alt="aa"
+                    displayPopupTitle="false"
+                    fileName="cq5dam.web.1280.1280 (2).jpeg"
+                    isDecorative="false">
+                    <file/>
+                </item_1687279200275>
+            </carousel>
+            <item_1
+                cq:panelTitle="OUR HOTELS"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="OUR HOTELS"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,22 @@
+
+<div data-sly-use.model="com.adobe.aem.guides.wknd.core.models.MultifieldTeaserHappening" style=" width: 825px; float: right; margin-top: -409px; ">
+    <div class="row" style="margin-left: -25px;background:#efeeee;">
+        <ul data-sly-list.teaser1="${model.teaserHappenings}" style="list-style-type:none;">
+           <div class="col-md-3" style="width: 30%;margin-left: -30px;">
+                            <div style="margin-top:125px;">
+                            <li><h5 style="font-size:17px"><b>${teaser1.name}</b></h5></li>
+                            </div>
+                            <div style="margin-top:20px;">
+                            <li style="color: #6c7272;"><p>${teaser1.location}<p></li>
+                            </div>
+                            <button type="button" class="btn btn-default" style="margin-top:20px;background: #d29751;color: white;">View Details</button>
+               </div>   
+                    <div class="col-md-5" style=" width: 70%; ">
+                         <img src="${teaser1.pathImage}" alt="User-Profile-Image" style=" width: 108%;" height="400px">
+                     
+                    </div>
+              
+            
+        </ul>
+    </div>
+</div>

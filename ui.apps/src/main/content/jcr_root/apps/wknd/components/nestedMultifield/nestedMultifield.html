@@ -1,0 +1,42 @@
+<h2><strong>Countries with States List: </strong></h2>
+ 
+<div data-sly-use.books="com.adobe.aem.guides.wknd.core.models.NestedMultifieldOfContryWithStates">
+  <div data-sly-list="${books.countryDetailsWithNastedMultifield}">
+
+       <p>Country : ${itemList.count} </p>
+    <div class="row">
+        <div class="col-md-3">
+          <img src="${item.countryimage}" alt="User-Profile-Image" width="250px" height="160px">
+        </div>
+        <div class="col-md-9"> 
+          <p>Country Name: <b>${item.countryname}</b></p>
+          <p>Country Code: <b>${item.countrycode}</b></p>
+          <p>Country Summary: <b>${item.countrysummary}</b></p>
+        </div>
+        <div class="col-md-12" style=" margin-top: 15px;">
+            <table class="table table-hover" border="2" style="border-collapse:collapse;border:2px solid #990000;color:#000000;width:100%" cellpadding="10">
+              <thead>
+                <tr style="background:#484c72;color:white">
+                  <th>State Name</th>
+                  <th>State Formation Date</th>
+                  <th>State Strength</th>
+                  <th>State Summary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr data-sly-repeat.state="${item.states}" style="background:#ffffff">
+                  <td>${state.statename}</td>
+                  <td>${'MMM dd,yyyy' @ format=state.stateformationdate}</td>
+                  <td>${state.statestrength}</td>
+                  <td>${state.statesummary}</td>
+                </tr>
+              </tbody>
+            </table>
+         </div>
+      </div>
+      <hr>
+  </div> 
+</div>
+
+
+

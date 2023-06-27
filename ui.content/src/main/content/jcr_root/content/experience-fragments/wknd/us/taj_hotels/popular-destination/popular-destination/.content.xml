@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-21T15:55:24.011+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="popular destination"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <multifieldteaser
+                jcr:created="{Date}2023-06-21T14:26:55.848+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-21T14:32:08.947+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/multifieldTeaser">
+                <teaser jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        name="Mumbai"
+                        pathImage="/content/dam/wknd/cq5dam.web.756.756.jpeg"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        name="Goa"
+                        pathImage="/content/dam/wknd/cq5dam.web.756.756 (1).jpeg"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        name="New Delhi"
+                        pathImage="/content/dam/wknd/cq5dam.web.756.756 (2).jpeg"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        name="Jaipur"
+                        pathImage="/content/dam/wknd/cq5dam.web.756.756 (3).jpeg"/>
+                </teaser>
+            </multifieldteaser>
+        </root>
+    </jcr:content>
+</jcr:root>

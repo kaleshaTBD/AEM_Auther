@@ -1,0 +1,8 @@
+<h2> Files and Pages Custom Component </h2>
+<div class="cmp-multilistexample" data-sly-use.cmp="com.adobe.aem.guides.wknd.core.models.FIlesCustomComponent">
+  <sly data-sly-list.link="${cmp.links}">
+    <li>
+      <a href="${link.valueMap.linkPath @ extension='html'}" target="${link.valueMap.linkTarget}" rel="noopener">${link.valueMap.linkLabel}</a>
+    </li>
+  </sly>
+</div>

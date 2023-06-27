@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-12T10:55:41.276+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="kalesha-v1"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <title
+                jcr:created="{Date}2023-06-12T10:55:07.871+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-12T10:55:07.871+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/title"/>
+            <text
+                jcr:created="{Date}2023-06-12T10:55:03.024+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-12T10:55:41.275+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/text"
+                text="&lt;p>This is v1 variation of experiance fragment&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
+        cq:contextHubSegmentsPath="/conf/we-retail/settings/wcm/segments"
+        cq:lastModified="{Date}2023-06-09T13:45:29.150+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-06-08T14:49:48.627+05:30"
+        cq:lastReplicatedBy="wknd-user"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2018-08-21T16:34:52.767+03:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/we-retail/settings/wcm/templates/hero-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="fr_CA"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Français"
+        jcr:uuid="b69633db-ec47-420e-90f1-b7c7886ecfe3"
+        sling:resourceType="wknd/components/search"
+        Approver1="Kalesha"
+        navRoot="{Boolean}true"
+        property1="p1"
+        property2="p2"
+        test="works">
+        <test jcr:primaryType="cq:PageContent"/>
+        <data.html jcr:primaryType="nt:unstructured"/>
+        <shaik
+            jcr:primaryType="cq:PageContent"
+            property1="p1"
+            property2="p2"/>
+    </jcr:content>
+</jcr:root>

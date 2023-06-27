@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-22T12:13:31.552+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Taj Hotels"
+        jcr:uuid="71d0f259-9696-4e92-817c-58d7cb275a75"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
+                    <experiencefragment
+                        jcr:created="{Date}2023-06-22T12:13:13.695+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-22T12:13:31.550+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/wknd/us/taj_hotels/taj-hotels-headers/master"/>
+                    <titlewithcenteralign
+                        jcr:created="{Date}2023-06-21T10:34:47.576+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T10:35:03.478+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="POPULAR DESTINATIONS"
+                        sling:resourceType="wknd/components/titlewithcenterAlignment"/>
+                    <title_with_center_al
+                        jcr:created="{Date}2023-06-21T11:29:32.465+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T11:29:32.465+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/title_with_center_alignment"/>
+                    <multifieldteaser
+                        jcr:created="{Date}2023-06-21T14:26:55.848+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T14:32:08.947+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                        fragmentPath="/content/experience-fragments/wknd/us/taj_hotels/popular-destination/popular-destination"/>
+                    <titlewithcenteralign_723487603
+                        jcr:created="{Date}2023-06-21T15:15:50.106+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T15:55:47.883+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="HAPPENINGS"
+                        sling:resourceType="wknd/components/titlewithcenterAlignmentHappening"
+                        linkTarget="_self"
+                        type="h1"/>
+                    <multifieldteaserhapp_1838280618
+                        jcr:created="{Date}2023-06-21T17:36:10.182+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T17:38:03.763+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/multifieldTeaserHappening">
+                        <teaserHappenings jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                location="Gandhinagar"
+                                name="Taj Gandhinagar Resort &amp; Spa, Gujarat"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512.jpeg"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                location="Goa"
+                                name="The Yellow House, Anjuna – IHCL SeleQtions"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512 (1).jpeg"/>
+                        </teaserHappenings>
+                    </multifieldteaserhapp_1838280618>
+                    <titlewithcenteralign_1667849164
+                        jcr:created="{Date}2023-06-21T16:21:54.994+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T16:22:27.362+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="EXPLORE TAJ"
+                        sling:resourceType="wknd/components/titlewithcenterAlignmentHappening"/>
+                    <multifieldteaserexpl
+                        jcr:created="{Date}2023-06-21T16:25:32.226+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T16:44:07.547+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/multifieldTeaserExploreTaj">
+                        <teaserHappenings jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                location="Wake up to the sound of waves lapping lazily at the shore. Uncover serenity and marvel at the wealth of beauty within the glittering blue seas."
+                                name="BEACH RETREATS"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512.png"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                location="Wander through the storied halls of a fairy tale palace, where dreams come to life. Retreat into your majestic suite, inspired by elegance."
+                                name="ROYAL INDIA"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512 (1).png"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                location="Gaze at the mist rolling in over the hill-tops from your luxurious villa. Marvel at glorious sunsets that will take your breath away from a private deck."
+                                name="HILL STATIONS"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512 (2).png"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                location="There is magic to be found in the energy of a bustling city. Where vibrant markets offer you everything you could imagine and centuries of history"
+                                name="URBAN GETAWAYS"
+                                pathImage="/content/dam/wknd/cq5dam.web.512.512 (2).jpeg"/>
+                        </teaserHappenings>
+                    </multifieldteaserexpl>
+                    <multifieldteaserhapp
+                        jcr:created="{Date}2023-06-21T17:34:57.235+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T17:34:57.235+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/multifieldTeaserHappening"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

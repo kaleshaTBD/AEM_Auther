@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-21T15:57:20.320+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Happening"
+        sling:resourceType="wknd/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <multifieldteaserhapp
+                jcr:created="{Date}2023-06-21T15:56:03.949+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-21T15:56:46.347+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/multifieldTeaserHappening">
+                <teaserHappenings jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        location="Gandhinagar"
+                        name="Taj Gandhinagar Resort &amp; Spa, Gujarat"
+                        pathImage="/content/dam/wknd/cq5dam.web.512.512.jpeg"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        location="Goa"
+                        name="The Yellow House, Anjuna – IHCL SeleQtions"
+                        pathImage="/content/dam/wknd/cq5dam.web.512.512 (1).jpeg"/>
+                </teaserHappenings>
+            </multifieldteaserhapp>
+        </root>
+    </jcr:content>
+</jcr:root>

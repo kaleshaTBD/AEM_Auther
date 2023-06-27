@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-22T12:11:53.795+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="taj-holiday"
+        sling:resourceType="wknd/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/container"
+                    layout="responsiveGrid">
+                    <experiencefragment
+                        jcr:created="{Date}2023-06-22T12:11:37.855+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-22T12:11:53.795+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                        fragmentPath="/content/experience-fragments/wknd/us/taj_hotels/taj-holiday/master"
+                        text="OUR HOTELS DINING WEDDINGS GIFT CARDS TAJ HOLIDAYS MEMBERSHIP PROGRAMS MANAGE BOOKING OUR HOTELS carousel1 carousel2 carousel3 carousel4 carousel5 carousel6 carousel7"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
