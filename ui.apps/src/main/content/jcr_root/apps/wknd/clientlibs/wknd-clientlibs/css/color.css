@@ -45,3 +45,33 @@
         color: #896633 !important;
         background: #f2f2f2 !important;
  }
+ .container-yellow {
+        background:yellow;
+ }
+ .container-pink {
+        background:pink;
+ }
+
+ /* Main page happening section*/
+.main_happening_section_blue {
+    background: lightcyan;
+    color: darkblue;
+}
+
+.main_happening_section_pink {
+        background: #f5e5fa;
+        color: #6e0404;
+}
+
+.text_with_center_gold {
+        color: #896633 !important;
+}
+.text_with_center_blue {
+        color: #15045b !important;
+}
+.text_with_center_red {
+        color: #c40000 !important;
+}
+.text_with_center_voilate {
+        color: #5c0079 !important;
+}

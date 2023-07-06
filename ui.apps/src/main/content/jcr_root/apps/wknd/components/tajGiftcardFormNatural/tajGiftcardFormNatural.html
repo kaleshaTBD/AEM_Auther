@@ -1,27 +1,27 @@
 
 <div class="row" style="margin-right: 50px;margin-left: 50px">
 <div class="col-md-6">
-  <form>
+  <form id="giftcardNaturalForm" name="giftcardNaturalForm">
     <div class="form-group">
     <label for="phone">Sender Details:</label>
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="sender_name" placeholder="Sender Name" style="border-radius: 0px">
+      <input type="text" class="form-control" name="sender_name" placeholder="Sender Name" style="border-radius: 0px">
     </div>
     <div class="form-group">
-      <input type="email" class="form-control" id="sender_email" placeholder="Sender Email" style="border-radius: 0px">
+      <input type="email" class="form-control" name="sender_mail" placeholder="Sender Email" style="border-radius: 0px">
     </div>
     <div class="form-group">
-        <input type="email" class="form-control" id="address_one" placeholder="Address Line 1" style="border-radius: 0px">
+        <input type="email" class="form-control" name="address_one" placeholder="Address Line 1" style="border-radius: 0px">
     </div>
     <div class="form-group">
-        <input type="email" class="form-control" id="address_two" placeholder="Address Line 2" style="border-radius: 0px">
+        <input type="email" class="form-control" name="address_two" placeholder="Address Line 2" style="border-radius: 0px">
     </div>
     <div class="form-group">
-        <input type="email" class="form-control" id="sender_mobileno" placeholder="Mobile Number" style="border-radius: 0px">
+        <input type="email" class="form-control" name="sender_mobileno" placeholder="Mobile Number" style="border-radius: 0px">
     </div>
     <div class="form-group">
-        <input type="email" class="form-control" id="sender_pincode" placeholder="Enter Pincode to Fetch City and State" style="border-radius: 0px">
+        <input type="email" class="form-control" name="sender_pincode" placeholder="Enter Pincode to Fetch City and State" style="border-radius: 0px">
     </div>
     
 </div>
@@ -30,18 +30,20 @@
       <label for="phone">Receiver Details:</label>
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="reciever_name" placeholder="Reciever Name" style="border-radius: 0px">
+      <input type="text" class="form-control" name="reciever_name" placeholder="Reciever Name" style="border-radius: 0px">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="reciever_mail" placeholder="Reciever e-mail Address" style="border-radius: 0px">
+      <input type="text" class="form-control" name="reciever_mail" placeholder="Reciever e-mail Address" style="border-radius: 0px">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="reciever_mail_retype" placeholder="Retype Reciever e-mail Address" style="border-radius: 0px">
+      <input type="text" class="form-control" name="reciever_mail_retype" placeholder="Retype Reciever e-mail Address" style="border-radius: 0px">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="reciever_mobile" placeholder="Mobile Number" style="border-radius: 0px">
+      <input type="text" class="form-control" name="reciever_mobile" placeholder="Mobile Number" style="border-radius: 0px">
     </div>
     </form>
 </div>
 </div>
-<button type="button" onclick="submit_giftcard_natural()" style="height: 50px;width: 200px;margin-left: 420px;margin-top: 40px;">PREVIEW E-GIFTCARD</button>
+<button type="submit" onclick="submit_giftcard_natural()" style="height: 50px;width: 225px;margin-left: 450px;margin-top: 40px;">PREVIEW E-GIFTCARD</button>
+    
+
