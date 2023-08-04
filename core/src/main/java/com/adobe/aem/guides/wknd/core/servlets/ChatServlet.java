@@ -53,7 +53,6 @@ public class ChatServlet extends SlingSafeMethodsServlet {
 
     private static String generateMessage(String prompt) throws IOException {
 
-            // Generate the chat message using ChatGPT API
             String requestBody = MAPPER.writeValueAsString(new ChatGptRequest(prompt,"gpt-3.5-turbo","user"));
             HttpPost request = new HttpPost(CHATGPT_API_ENDPOINT);
             request.addHeader("Authorization", "Bearer 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");
